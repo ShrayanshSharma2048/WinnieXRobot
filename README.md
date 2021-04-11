@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
+  <img src="https://telegra.ph/file/4a3e516e7776f189a6460.jpg">
 </p>
 
 # MashaRobot
