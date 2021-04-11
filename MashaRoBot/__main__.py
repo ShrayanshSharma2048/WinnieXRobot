@@ -74,27 +74,48 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Masha*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+Hi {}, my name is {}! 
+I am a powerfull group management bot.
+Build by @ShrayanshSharma, I specialize in managing groups.
+You can find my list of available commands by pressing help button below.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
-        InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/wastebots"
-        ),
-    ],
-]
+                            InlineKeyboardButton(
+                                text="👑 Add Winnie to your group",
+                                url="t.me/{}?startgroup=true".format(
+                                    context.bot.username
+                                ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="💁 Support Group",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                            ),
+                            InlineKeyboardButton(
+                                text="🔔 Updates Channel",
+                                url="https://t.me/Coffee_Updates",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text=" ✨ Help ",
+                                url="https://t.me/MissCoffeeBot?start=help",
+                            ),
+                            InlineKeyboardButton(
+                                text=" ⚡️ Get Started ",
+                                url="https://t.me/Coffee_Updates/3",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text=" ✍️ Mai Repo ✍️ ",
+                                url="https://t.me/Coffee_Updates/4",
+                            )
+                        ],
+                    ]
 
 
 HELP_STRINGS = """
