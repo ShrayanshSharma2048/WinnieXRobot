@@ -52,12 +52,7 @@
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
         "value": "4729e5a7-f9b4-4fbd-ac6d-86ef9d0cebd3"
       },
-      "HEROKU_APP_NAME": {
-        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
-        "required": false
-        "value": ""
-      },
-      "OWNER_USERNAME": {
+         "OWNER_USERNAME": {
          "description": "Your username without the @",
          "value": "ShrayanshSharma"
       },
