@@ -119,10 +119,24 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+*Main* commands available [:](https://telegra.ph/file/4a3e516e7776f189a6460.jpg)
+ • /help: PM's you this message.
+ • /help <module name>: PM's you info about that module.
+ • /donate: information on how to donate!
+ • /settings:
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
+""".format(
+    dispatcher.bot.first_name,
+    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+)
 
+SAITAMA_IMG = "https://telegra.ph/file/4a3e516e7776f189a6460.jpg"
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+ You can support the project via [Paypal](https://www.paypal.me/ShrayanshSharma27) or by contacting @ShrayanshSharma \
+ Supporting isnt always financial! \
+ Those who cannot provide monetary support are welcome to help us develop the bot at [Coffee Support](https://t.me//Coffee_Support)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
