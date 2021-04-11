@@ -1,5 +1,5 @@
 {
-      "name": "MashaRoBot",
+      "name": "WinnieXRobot",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "Masha"
       ],   
-   "repository": "https://github.com/Mr-Dark-Prince/MashaRoBot",
+   "repository": "https://github.com/ShrayanshSharma2048/WinnieXRobot",
    "addons": [
       {
          "options": {
@@ -21,17 +21,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "1781870950:AAGTulvFVP4d7Ii93waeb6HkcAsTP-RlMSI"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "1842427"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "eb8bfaf26cd3ef11991b7768d1533ed0"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -41,27 +41,28 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1194553296"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": ""
+         "value": "1781870950"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "4729e5a7-f9b4-4fbd-ac6d-86ef9d0cebd3"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
         "required": false
+        "value": "winniexrobot"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "ShrayanshSharma"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Winnie support than consider you made an enemy.",
          "required": true,
          "value": ""
       },
@@ -81,37 +82,37 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001417169923"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
-         "required": true,
-         "value": "-123456798"
+         "required": false,
+         "value": ""
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "SOJPD4HT4E8TQTFZ"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "DQHFT9MN8W09"
       },
       "API_OPENWEATHER": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-        "value": "",
-        "required": false
+        "required": true,
+        "value": "69e40ebd996218467db108f145d83b21",
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "1194553296"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "i85or9cjf6hWUglCWtyevRjnAJVHDpMpM3L2amAmWN9dq8uIIZOQyqCkt2Q9RZXr"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -120,22 +121,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "1194553296"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": ""
+         "value": "1194553296"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1194553296"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1194553296"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -154,7 +155,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://winniexrobot.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -173,7 +174,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -182,7 +183,7 @@
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": false,
-         "value": ""
+         "value": "64394220e6bd9ba18ad761924060799268c3517f7c5ec83e21537a7a8810eec05d4fede82ee24418044c3553ccc5925152622be97584cfb6e2d9f9e9d380d4dd"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
@@ -192,7 +193,7 @@
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
          "required": false,
-         "value": ""
+         "value": "https://telegra.ph/file/4a3e516e7776f189a6460.jpg"
       }
       
    }
