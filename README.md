@@ -8,4 +8,4 @@ This is just a demo bot.. Don't try to add to your group.. Create your own bot
 ## How To Host
 The easiest way to deploy this Bot
 
-<p align="center"> [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ShrayanshSharma2048/WinnieXRobot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ShrayanshSharma2048/WinnieXRobot.git)
