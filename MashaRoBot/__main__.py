@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi, my name is *Winnie*! 
 I am a powerfull group management bot.
 Build by @ShrayanshSharma, I specialize in managing groups.
 You can find my list of available commands by pressing help button below.
@@ -83,7 +83,7 @@ You can find my list of available commands by pressing help button below.
 buttons = [
                         [
                             InlineKeyboardButton(
-                                text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+                                text="👑 Add Winnie to your group", url="t.me/MashaRoBot?startgroup=true"),
                         ],
                         [
                             InlineKeyboardButton(
@@ -98,7 +98,7 @@ buttons = [
                         [
                             InlineKeyboardButton(
                                 text=" ✨ Help ",
-                                url="https://t.me/MissCoffeeBot?start=help",
+                                url="https://t.me/WinnieXRobot?start=help",
                             ),
                             InlineKeyboardButton(
                                 text=" ⚡️ Get Started ",
