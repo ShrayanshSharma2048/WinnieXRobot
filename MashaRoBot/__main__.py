@@ -81,13 +81,9 @@ You can find my list of available commands by pressing help button below.
 """
 
 buttons = [
-                       [
+                        [
                             InlineKeyboardButton(
-                                text="👑 Add Winnie to your group",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
-                                ),
-                            )
+                                text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
                         ],
                         [
                             InlineKeyboardButton(
