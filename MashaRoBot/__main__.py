@@ -102,13 +102,13 @@ buttons = [
                             ),
                             InlineKeyboardButton(
                                 text=" ⚡️ Get Started ",
-                                url="https://t.me/Coffee_Updates/3",
+                                url="https://t.me/WinnieXUpdates/2",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text=" ✍️ Mai Repo ✍️ ",
-                                url="https://t.me/Coffee_Updates/4",
+                                url="https://t.me/WinnieXUpdates/3",
                             )
                         ],
                     ]
