@@ -92,7 +92,7 @@ buttons = [
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/Coffee_Updates",
+                                url="https://t.me/WinnieXUpdates",
                             ),
                         ],
                         [
