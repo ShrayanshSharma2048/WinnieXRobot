@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is *Winnie*! 
+Hi , my name is *Winnie*! 
 I am a powerfull group management bot.
 Build by @ShrayanshSharma, I specialize in managing groups.
 You can find my list of available commands by pressing help button below.
